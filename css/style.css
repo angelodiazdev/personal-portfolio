@@ -1,0 +1,152 @@
+/* color pallete 
+  2d4654 - charcoal
+  094074 - dark cerulean
+  3c6997 - queen blue
+  95c623 - yellow green
+  5adbff - maya blue */
+
+/* Reset and variables */
+:root {
+  --primary-color: #3c6997;
+  /* --secondary-color:  */
+  --dark-color: #2d4654;
+  --light-color: #95c623;
+  --max-width: 1100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+/* Utility */
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 1rem;
+  overflow: auto;
+}
+
+.l-heading {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+
+/* Navbar */
+#navbar {
+  background: #3c6997;
+  position: sticky;
+  top: 0;
+}
+
+#navbar h1 {
+  color: #fff;
+  padding-left: 10px;
+}
+
+#navbar .container {
+  display: grid;
+  grid-template-columns: 50px 6fr 1fr;
+  padding: 1rem;
+  align-items: center;
+}
+
+#navbar ul {
+  justify-self: end;
+  display: flex;
+}
+
+#navbar ul li a {
+  padding: 0.75rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+#navbar ul li a:hover {
+  background: #2d4654;
+  border-radius: 5px;
+}
+
+/* Showcase */
+#showcase {
+  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  height: 93vh;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+}
+
+/* Gallery */
+#gallery {
+  background: #3c6997;
+}
+#gallery .gallery-logo {
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+}
+.project-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 30px 20px;
+  grid-gap: 20px;
+}
+
+#project-tile {
+  height: 100%;
+  border: 1px solid black;
+}
+
+#project-tile p {
+  text-align: center;
+  font-weight: bold;
+  color: #5adbff;
+  padding-bottom: 5px;
+}
+
+.site-thumbnail {
+  border-bottom: 3px solid #95c623;
+  height: 80%;
+}
+
+/* Footer */
+#contact {
+  background: #094074;
+  text-align: center;
+  color: #fff;
+}
+
+#contact .social i {
+  padding: 10px;
+  color: #fff;
+}
+
+#contact p {
+  padding-bottom: 5px;
+}
