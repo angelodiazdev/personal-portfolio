@@ -71,13 +71,14 @@ header {
 }
 
 #header-content {
-  /* position: absolute;
-  top: 40%;
-  left: 28%; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #fff;
   font-size: 3em;
   text-shadow: 2px 2px #000;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /* About */
