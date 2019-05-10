@@ -28,6 +28,14 @@ li {
   padding-right: 5px;
 }
 
+.feature-title {
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 3em;
+  padding-bottom: 20px;
+}
+
 /* Navbar */
 nav {
   background: #3c6997;
@@ -84,14 +92,8 @@ header {
 /* About */
 #about {
   background: #3c6997;
-}
-
-#about h1 {
-  text-align: center;
-  padding: 20px;
-  color: #fff;
-  text-decoration: underline;
-  font-size: 3em;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #about-content {
@@ -112,19 +114,17 @@ header {
   line-height: 1.2;
 }
 
+/* Languages */
+#lang {
+  height: 600px;
+  background: #3c6997;
+}
+
 /* Work */
 #work {
   /* height: 1000px; */
   background: #3c6997;
-  padding: 50px;
-}
-
-#work h1 {
-  padding: 10px 0;
-  text-decoration: underline;
-  text-align: center;
-  color: #fff;
-  font-size: 3em;
+  padding: 40px;
 }
 
 #work .container p {
