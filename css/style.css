@@ -151,7 +151,6 @@ header {
   border-radius: 10px;
   max-width: 1100px;
   margin: 0 auto;
-  /* height: 800px; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
@@ -188,4 +187,9 @@ footer p {
   color: #fff;
   padding: 10px 0;
   font-weight: bold;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+  
 }
