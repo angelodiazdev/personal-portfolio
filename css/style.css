@@ -30,7 +30,8 @@ i {
 
 .showcase-content {
   text-align: center;
-  padding: 400px;
+  margin: auto;
+  padding: 400px 0;
   color: #fff;
 }
 
