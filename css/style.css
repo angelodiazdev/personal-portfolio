@@ -29,13 +29,10 @@ i {
 }
 
 .showcase-content {
-  text-align: center;
+  /* text-align: center; */
   margin: auto;
   padding: 400px 0;
-  color: #fff;
+  /* color: #fff; */
 }
 
 /* About */
-.card {
-  margin: 50px auto;
-}
