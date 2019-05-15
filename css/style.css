@@ -4,11 +4,9 @@
   margin: 0;
 }
 
-/* Utility */
-
 /* Main Styling */
 body {
-  height: 6000px;
+  /* height: 6000px; */
   background: #3c6997;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -35,4 +33,13 @@ i {
   /* color: #fff; */
 }
 
-/* About */
+/* Contact/Footer */
+footer {
+  background: #094074;
+  text-align: center;
+  padding: 10px;
+}
+
+footer i {
+  color: #fff;
+}
