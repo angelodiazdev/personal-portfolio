@@ -1,12 +1,5 @@
-/* Reset */
-* {
-  padding: 0;
-  margin: 0;
-}
-
 /* Main Styling */
 body {
-  /* height: 6000px; */
   background: #3c6997;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -27,10 +20,12 @@ i {
 }
 
 .showcase-content {
-  /* text-align: center; */
-  margin: auto;
   padding: 400px 0;
-  /* color: #fff; */
+}
+
+.showcase-content h3,
+.showcase-content h1 {
+  text-shadow: 1px 1px black;
 }
 
 /* Contact/Footer */
@@ -38,6 +33,7 @@ footer {
   background: #094074;
   text-align: center;
   padding: 10px;
+  margin: 0;
 }
 
 footer i {
