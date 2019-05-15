@@ -16,16 +16,15 @@ i {
 /* Showcase */
 #showcase {
   background: url('../img/showcase.jpg') no-repeat center center/cover;
-  height: 100vh;
+  height: 93vh;
 }
 
-.showcase-content {
-  padding: 400px 0;
+#showcase-content {
+  height: 90vh;
 }
-
-.showcase-content h3,
-.showcase-content h1 {
-  text-shadow: 1px 1px black;
+#showcase-content h1,
+#showcase-content h3 {
+  text-shadow: 1px 1px #000;
 }
 
 /* Contact/Footer */
